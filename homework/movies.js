@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', async function(event) {
   let db = firebase.firestore()
-  let apiKey = 'your TMDB API key'
+  let apiKey = '8720ff01219b33c8a1581dedde14680a'
   let response = await fetch(`https://api.themoviedb.org/3/movie/now_playing?api_key=${apiKey}&language=en-US`)
   let json = await response.json()
   let movies = json.results

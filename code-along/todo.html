@@ -24,25 +24,31 @@
     </form>
   </div>
 
-  <!-- Put the Firebase config here -->
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
 
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-      https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
-
-  <!-- FirebaseUI Auth -->
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+     
+ <!-- FirebaseUI Auth -->
   <!-- https://firebaseopensource.com/projects/firebase/firebaseui-web/ -->
   <script src="https://www.gstatic.com/firebasejs/ui/4.7.3/firebase-ui-auth.js"></script>
 
-  <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {}
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-  </script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBjJdtRl5rBQxmbpx-uesohD5cobZvQb6o",
+    authDomain: "kiei-week-6.firebaseapp.com",
+    projectId: "kiei-week-6",
+    storageBucket: "kiei-week-6.appspot.com",
+    messagingSenderId: "110642932779",
+    appId: "1:110642932779:web:b84a95441304cf92e30e6e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   <script src="todo.js"></script>
 </body>
 </html>
